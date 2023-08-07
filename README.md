@@ -31,6 +31,24 @@ main:Button("Анти-костёр",function(table)
     game.Workspace.FireParts:Destroy()
 end)
 
+main:Button("Подобрать все оружия",function(table)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+end)
+
 main:Toggle("Скорость",function(t)
     if t then
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 75
