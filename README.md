@@ -33,21 +33,27 @@ end)
 
 main:Button("Подобрать все оружия",function(table)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.2)
 game.Workspace.Folder:Destroy()
 wait(0.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.2)
 game.Workspace.Folder:Destroy()
 wait(0.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.2)
 game.Workspace.Folder:Destroy()
 wait(0.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.2)
 game.Workspace.Folder:Destroy()
 wait(0.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.2)
 game.Workspace.Folder:Destroy()
 wait(0.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
+wait(0.2)
 game.Workspace.Folder:Destroy()
 wait(0.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Folder.Handle.CFrame
